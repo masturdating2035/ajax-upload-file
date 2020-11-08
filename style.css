@@ -1,0 +1,36 @@
+body {
+  font-family: Shabnam, serif;
+  direction: rtl;
+}
+
+input {
+    width: 20rem;
+    background: white;
+    border: 1px solid #ebebeb;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 15px;
+    font-family: Shabnam, sans-serif;
+    margin-top: 10px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background: white;
+    border: 1px solid #ebebeb;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Shabnam;
+}
+
+button:focus {
+    outline: none;
+    border: 1px solid #ccc;
+}
